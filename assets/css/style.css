@@ -173,7 +173,7 @@ nav a:hover{
     }
 
     #content{
-        height: 900px;
+        height: 865px;
     }
     
     #center-about{
@@ -212,23 +212,24 @@ nav a:hover{
     
     .image-card{
         margin-left: 5em;
+        margin-bottom: 4em;
         height: 500px;
         object-fit: contain;
-        margin-bottom: 4em;
     }
 
     #btn-contact-me{
+        float: center;
         background-color: #c0b386;
-        border: none;
-        color: Black;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        cursor: pointer;
         text-transform: uppercase;
+        text-decoration: none;
         font-weight: bold;
+        padding: 15px 32px;
         border-radius: 10%;
+        border: none;
+        margin-left: 47%;
+        margin-bottom: 3em;
+        color: Black;
+        cursor: pointer;
     }
 
     #portfolio-line{
@@ -253,32 +254,41 @@ nav a:hover{
         margin-left: 2em;
         margin-right: 2em;
     }
-    
 
-    
+    #btn-portfolio{
+        float: center;
+        background-color: #c0b386;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 15px 32px;
+        border-radius: 10%;
+        border: none;
+        margin-left: 47%;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        color: Black;
+        cursor: pointer;
+    }
 
-    
-
-
-
-    /* #portfolio-teaser{
-        line-height: 2em;
-        columns: 3;
-        column-gap: 2em;
+    footer{
+        height: 150px;
     }
     
-    #portfolio-teaser > img {
-        width: 45%;
-    }
-    #portfolio-teaser{
-        clear: both;
-        line-height: 0;
-        columns: 3;
-        column-gap: 0;
+    .social-network{
+        text-align: center;
     }
     
-    #portfolio-teaser > img {
-        width: 100%;
-    }  */
+    .social-network li{
+        display: inline;
+    }
+    
+    .social-network i{
+        font-size: 160%;
+        margin: 1px;
+        padding: 5%;
+        color: #c0b386;
+    
+    }
 
 }
