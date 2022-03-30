@@ -108,7 +108,7 @@ nav a:hover{
 }
 
 #background-image{
-    background: url('../images/background-image.jpg');
+    background: url('../images/background-image4.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -122,9 +122,6 @@ nav a:hover{
     padding-top: 400px;
     font-size: 2em;
 }
-
-
-
 
 /* Computer size */
 @media screen and (min-width: 1200px){
@@ -220,9 +217,24 @@ nav a:hover{
         margin-bottom: 4em;
     }
 
+    #btn-contact-me{
+        background-color: #c0b386;
+        border: none;
+        color: Black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 10%;
+    }
+
     #portfolio-line{
         display: block;
-        width: 30%;
+        margin-left: 30%;
+        width: 40%;
         color: #a9a9a9;
     }
 
@@ -231,6 +243,7 @@ nav a:hover{
         height: 600px;
         display: flex;
         justify-content: center;
+        background-color: black;
     }
 
     #portfolio-teaser > img{
@@ -240,6 +253,7 @@ nav a:hover{
         margin-left: 2em;
         margin-right: 2em;
     }
+    
 
     
 
