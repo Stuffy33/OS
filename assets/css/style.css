@@ -116,66 +116,57 @@ nav a:hover{
     height: 800px;
 }
 
-#background-image, h2{
+#background-image h2{
     color: white;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 400px;
     font-size: 2em;
-    margin-left: 0.5em;
-    margin-right: 1em;
 }
 
 #content{
-    height: 600px;
-    margin: auto;
+    height: 300px;
+    margin: 0;
+}
+
+#center-about{
+    background-color: #ffffff;   
+    text-align: center;
+    padding: 4em;
+}
+
+#center-about h2{
+    color: black;
 }
 
 #left-about{
-    padding-top: 30px;
+    padding-top: 4em;
     float: left;
-    width: 33%;
-    background-color: green;
+    width: 40%;
+    margin-left: 4em;
 }
 
 #right-about{
-    padding-top: 30px;
+    padding-top: 4em;
     float: right;
-    width: 33%;
-    max-height: fit-content;
-    background-color: blue;
-}
-
-#center-about{
-    float: center;
-    margin: 33%;
-    background-color: silver;
-}
-
-#left-about-copy{
-    width: 100%;
-    float: right;
-    clear: both;
-}
-
-#right-about-pic{
-    width: 100%;
-    float: left;
-    clear: both;
-}
-
-#profile-pic{
-    background: url('../images/profile-pic.jpg') no-repeat center center;
+    width: 40%;
     height: auto;
+    margin-right: 4em;
+}
+
+.left-about-copy{
     width: 100%;
+    float: right;
+    clear: both;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
 }
 
-#center-about{
-    width: 300px;
-    height: 300px;
-    padding: 30xp;
-    margin: 0 auto;
+.image-card{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
-
 
 
 /* Computer size */
