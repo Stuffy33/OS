@@ -176,8 +176,7 @@ nav a:hover{
     }
 
     #content{
-        height: 300px;
-        margin: 0;
+        height: 800px;
     }
     
     #center-about{
@@ -221,23 +220,33 @@ nav a:hover{
         margin-bottom: 4em;
     }
 
+    #portfolio-teaser{
+        display: flex;
+    }
+
+    #portfolio-teaser img{
+        width: 33%;
+        padding: 5px;
+    }
+
     /* #portfolio-teaser{
         line-height: 2em;
-        columns: 2;
+        columns: 3;
         column-gap: 2em;
     }
     
     #portfolio-teaser > img {
         width: 45%;
-
-    /* #portfolio-teaser{
+    }
+    #portfolio-teaser{
         clear: both;
         line-height: 0;
-        columns: 4;
+        columns: 3;
         column-gap: 0;
-    } */
+    }
     
     #portfolio-teaser > img {
         width: 100%;
-    } 
+    }  */
+
 }
