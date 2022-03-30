@@ -176,7 +176,7 @@ nav a:hover{
     }
 
     #content{
-        height: 800px;
+        height: 900px;
     }
     
     #center-about{
@@ -220,14 +220,32 @@ nav a:hover{
         margin-bottom: 4em;
     }
 
-    #portfolio-teaser{
-        display: flex;
+    #portfolio-line{
+        display: block;
+        width: 30%;
+        color: #a9a9a9;
     }
 
-    #portfolio-teaser img{
-        width: 33%;
-        padding: 5px;
+    #portfolio-teaser{
+        padding-top: 4em;
+        height: 600px;
+        display: flex;
+        justify-content: center;
     }
+
+    #portfolio-teaser > img{
+        width: 25%;
+        height: 500px;
+        object-fit: contain;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    
+
+    
+
+
 
     /* #portfolio-teaser{
         line-height: 2em;
