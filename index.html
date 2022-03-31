@@ -20,24 +20,36 @@
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <hr>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <hr>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="contact-me.html">Contact me</a></li>
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
             <span><i class="fa-solid fa-bars fa-2x"></i></span>
         </label>
+
+        <ul class="social-network">
+            <li>
+                <a href="https://www.facebook.com/sternerjpg/" target="_blank" rel="noopener" aria-label="Visit my Facebook page (opens in a new tab)" >
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/sterner.jpg/" target="_blank" rel="noopener" aria-label="Visit my Instagram page (opens in a new tab)" >
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </header>
 
     <div id="background-holder">
         <div id="background-image"><h2>Hi, I'm Oskar Sterner.</h2></div>
 
     </div>
+    <div id="center-about">
+        <h2>About me</h2>    
+    </div>
     <section id="content">
-        <div id="center-about">
-            <h2>About me</h2>    
-        </div>
+        
         <div id="left-about">
             <div class="left-about-copy">
                 <p>I was born and raised in the suburbs of Stockholm, Sweden, where as of right now, I am currently working at Lifestyle Tattoo
@@ -45,7 +57,7 @@
                     tattoo artist.
                     <br>
                     <br>
-                    Starting off with an interest in the traditional tattooing style, I’ve worked my way through many tattoos to find where the
+                    Starting off with an interest in the traditional tattooing style, I've worked my way through many tattoos to find where the
                     artist in me resides. I am a tattoo artist with a passion for black and grey realism. A big part of the process I enjoy is
                     collaborating with the customer to achieve high quality, creative tattoos.
                     Why don't you check out my portfolio and drop me a message at the bottom of the page.
@@ -59,10 +71,11 @@
             <img class="image-card" src="assets/images/profile-pic3.png" alt="profile-pic">
         </div>
     </section>
-    <button id="btn-contact-me" alt="contact-me">Contact me</button>
 
-    <hr id="portfolio-line">
-
+    <a href="contact-me.html" id="btn-contact-me-container">
+        <button id="btn-contact-me" alt="contact-me">Contact me</button>
+    </a>
+   
     <div id="portfolio-teaser-container">
         <div id="portfolio-teaser">
             <img src="assets/images/bird.jpg" alt="bird">
@@ -71,22 +84,14 @@
         </div>
     </div>
 
-    <button id="btn-portfolio" alt="portfolio" href="portfolio.html">Portfolio</button>
+    <a href="portfolio.html" id="btn-portfolio-container">
+        <button id="btn-portfolio" alt="portfolio">Portfolio</button>
+    </a>
 
-    <hr id="portfolio-line">
 
-    <footer>
-        <ul class="social-network">
-            <li>
-                <a href="https://www.facebook.com/sternerjpg/" target="_blank" rel="noopener" aria-label="Visit my Facebook page (opens in a new tab)" >
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/sterner.jpg/" target="_blank" rel="noopener" aria-label="Visit my Instagram page (opens in a new tab)" >
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+    
+
+    <footer></footer>
     
 
 </body>

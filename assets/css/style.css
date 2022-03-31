@@ -9,14 +9,14 @@
 body{
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: black;
+    background-color: rgb(240, 240, 240);
 }
 
 h1, h2{
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: white;
+    color: #ffffff;
 }
 
 header{
@@ -117,10 +117,14 @@ nav a:hover{
 }
 
 #background-image h2{
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding-top: 400px;
     font-size: 2em;
+}
+
+.social-network{
+    display: none;
 }
 
 /* Computer size */
@@ -172,71 +176,68 @@ nav a:hover{
         transform: scale(1,1);
     }
 
-    #content{
-        height: 865px;
-    }
-    
     #center-about{
-        background-color: #ffffff;   
+        background-color: rgb(240, 240, 240);   
         text-align: center;
-        padding: 4em;
+        padding: 0 4em;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
     }
-    
+
     #center-about h2{
         color: black;
     }
-    
+
+    #content{
+        height: 800px;
+        display: flex;
+    }
+
     #left-about{
-        padding-top: 4em;
-        float: left;
-        width: 40%;
-        margin-left: 4em;
-        margin-bottom: 4em;
+        justify-content: left;
+        margin: 0 10%;
     }
-    
-    #right-about{
-        padding-top: 4em;
-        float: right;
-        width: 40%;
-        height: auto;
-        margin-right: 4em;
-    }
-    
+
     .left-about-copy{
         width: 100%;
-        float: right;
         clear: both;
-        color: #ffffff;
-        font-size: 1.5em;    
+        color: black;
+        font-size: 1.5em; 
+        min-width: 428px; 
     }
-    
+
+    .left-about-copy p{
+        width: 100%;
+    }
+
+    #right-about{
+        justify-content: right;
+        margin: 0 10%;
+    }
+
     .image-card{
-        margin-left: 5em;
-        margin-bottom: 4em;
-        height: 500px;
-        object-fit: contain;
+        height: 600px;
+    }
+
+    #btn-contact-me-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-color: rgb(240, 240, 240);
+        margin-bottom: 100px;
     }
 
     #btn-contact-me{
-        float: center;
         background-color: #c0b386;
         text-transform: uppercase;
-        text-decoration: none;
         font-weight: bold;
         padding: 15px 32px;
         border-radius: 10%;
         border: none;
-        margin-left: 47%;
-        margin-bottom: 3em;
-        color: Black;
         cursor: pointer;
-    }
-
-    #portfolio-line{
-        display: block;
-        margin-left: 30%;
-        width: 40%;
-        color: #a9a9a9;
+        color: #ffffff;
     }
 
     #portfolio-teaser{
@@ -244,7 +245,7 @@ nav a:hover{
         height: 600px;
         display: flex;
         justify-content: center;
-        background-color: black;
+        background-color: #ffffff;
     }
 
     #portfolio-teaser > img{
@@ -255,40 +256,67 @@ nav a:hover{
         margin-right: 2em;
     }
 
+    #btn-portfolio-container{
+        height: 8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-color: #ffffff;
+    }
+
     #btn-portfolio{
-        float: center;
         background-color: #c0b386;
         text-transform: uppercase;
-        text-decoration: none;
         font-weight: bold;
         padding: 15px 32px;
         border-radius: 10%;
         border: none;
-        margin-left: 47%;
-        margin-top: 5em;
-        margin-bottom: 5em;
-        color: Black;
         cursor: pointer;
+        color: #ffffff;
     }
-
-    footer{
+    
+     footer{
         height: 150px;
     }
     
     .social-network{
-        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 4em;
+        display: flex;
+        align-items: center;
+        height: 100%;
     }
-    
+
     .social-network li{
         display: inline;
+        margin: 10px;
     }
     
     .social-network i{
         font-size: 160%;
         margin: 1px;
-        padding: 5%;
+        padding: 2%;
         color: #c0b386;
-    
     }
+
+    /* Portfolio  */
+
+    #portfolio{
+        line-height: 2;
+        columns: 4;
+        column-gap: 1.5;
+        padding-top: 7.8em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    #portfolio > img {
+        width: 100%;
+    }
+
+   
 
 }
