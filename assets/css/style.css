@@ -317,6 +317,79 @@ nav a:hover{
         width: 100%;
     }
 
-   
+    /* Contact me */
+
+    #booking-container{
+        font-size: 1.5em;
+        padding-top: 140px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #booking{
+        text-align: center;
+        color: black;
+        margin: 2em;
+
+    }
+    #booking h1{
+        color: black;
+        text-transform: uppercase;
+        padding-bottom: 1em;
+    }
+
+    #form-container {
+        height: auto;
+        width: 100%;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .container {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 0px 0px 20px #00000010;
+        background-color: #c0b386;
+        border-radius: 16px;
+        margin-bottom: 4em;
+        margin-top: 4em;
+      }
+      .form-group {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 5px;
+        font-size: 18px;
+        border: 1px solid rgba(128, 128, 128, 0.199);
+        margin-top: 5px;
+      }
+      
+      textarea {
+        resize: vertical;
+      }
+      button[type="submit"] {
+        width: 100%;
+        border: none;
+        background-color: rgb(240, 240, 240);
+        padding: 20px;
+        font-size: 24px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        color: black;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 0.3s ease background-color;
+      
+      }
+      
 
 }
