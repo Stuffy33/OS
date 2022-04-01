@@ -240,6 +240,8 @@ nav a:hover{
         color: #ffffff;
     }
 
+    /* Homepage portfolio teaser */
+
     #portfolio-teaser{
         padding-top: 4em;
         height: 600px;
@@ -279,6 +281,8 @@ nav a:hover{
      footer{
         height: 150px;
     }
+
+    /* Social media icons */
     
     .social-network{
         position: absolute;
