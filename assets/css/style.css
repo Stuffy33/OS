@@ -123,6 +123,8 @@ nav a:hover{
     font-size: 2em;
 }
 
+
+
 .social-network{
     display: none;
 }
@@ -243,6 +245,7 @@ nav a:hover{
     /* Homepage portfolio teaser */
 
     #portfolio-teaser{
+        all:unset;
         padding-top: 4em;
         height: 600px;
         display: flex;
@@ -251,6 +254,7 @@ nav a:hover{
     }
 
     #portfolio-teaser > img{
+        all: unset;
         width: 25%;
         height: 500px;
         object-fit: contain;
