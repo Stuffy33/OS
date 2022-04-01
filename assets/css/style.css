@@ -16,7 +16,6 @@ h1, h2{
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ffffff;
 }
 
 header{
@@ -24,6 +23,7 @@ header{
     position: fixed;
     z-index: 999;
     width: 100%;
+    display: flex;
 }
 
 hr{
@@ -68,6 +68,7 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 
 nav li{
@@ -99,6 +100,10 @@ nav a:hover{
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+.social-network{
+    display: none;
+}
+
 #background-holder{
     width: 100%;
     height: 800px;
@@ -122,6 +127,190 @@ nav a:hover{
     padding-top: 400px;
     font-size: 2em;
 }
+
+#center-about{
+    background-color: rgb(240, 240, 240);   
+    width: 100%;
+}
+
+#about-me{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+#content{
+    height: auto;
+    display: flex;
+}
+
+#left-about{
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 50px;
+}
+
+.left-about-copy{
+    width: 100%;
+    clear: both;
+    color: black;
+    font-size: 1.2em; 
+}
+
+.left-about-copy p{
+    width: 100%;
+}
+
+.image-card{
+    display: none;
+}
+
+#btn-contact-me-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 50px;
+}
+
+#btn-contact-me{
+    background-color: #c0b386;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 32px;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Homepage portfolio teaser */
+#portfolio-teaser{
+    padding-top: 4em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+#portfolio-teaser > img{
+    all: unset;
+    width: 80%;
+    padding-bottom: 2em;
+    object-fit: contain;
+}
+
+#btn-portfolio-container{
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+#btn-portfolio{
+    background-color: #c0b386;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 32px;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Portfolio  */
+#portfolio{
+    line-height: 2;
+    columns: 2;
+    column-gap: 1.5;
+    padding-top: 7.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#portfolio > img {
+    width: 100%;
+}
+
+/* Contact me */
+#booking-container{
+    font-size: 1.5em;
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+#booking{
+    text-align: center;
+    color: black;
+    margin: 2em;
+
+}
+#booking h1{
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+
+#form-container {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: #c0b386;
+    border-radius: 16px;
+    margin-bottom: 4em;
+    margin-top: 4em;
+  }
+  .form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button[type="submit"] {
+    width: 100%;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease background-color;
+  
+  }
+--------------------------
 
 
 
