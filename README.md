@@ -63,7 +63,7 @@ No unfixed bugs
     - in the Github repository, navigate to the settings tab.
     - From the source section drop-down menu, select the main branch.
     - Once the main branch has been selected, the page provided the  link to the completed website.
-The live link can be found here - 
+The live link can be found here - https://stuffy33.github.io/OS/
 
 # Content
 - The code for portfolio has been taken / inspired by the Love running project.
@@ -75,3 +75,18 @@ The live link can be found here -
 - google fonts = roboto
 - Oskar Sterner = Images ( have permission to use his content)
 - figma = change image sizes
+
+# Font
+- Roboto
+
+# color
+ - rgb(240, 240, 240)
+ - #ffffff
+ - black
+ - c0b386
+ - rgba(128, 128, 128)
+ - #00000010
+
+ # Wireframe
+ - simple wireframe made by hand for the home page
+ - Unfortunatly the other 2 wireframes have been in an accident. Suspects: late night and coffee 
