@@ -26,13 +26,6 @@ header{
     display: flex;
 }
 
-hr{
-    margin:0;
-    padding: 0;
-    border: 1x;
-    color: #a9a9a9;
-}
-
 #logo{
    height: 2.5em;
    margin: 2em;
@@ -167,7 +160,6 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
     background-color: rgb(240, 240, 240);
     margin-bottom: 50px;
 }
@@ -181,6 +173,7 @@ nav a:hover{
     border: none;
     cursor: pointer;
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* Homepage portfolio teaser */
@@ -205,13 +198,13 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
     background-color: #ffffff;
 }
 
 #btn-portfolio{
     background-color: #c0b386;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
     padding: 15px 32px;
     border-radius: 10%;
@@ -224,7 +217,7 @@ nav a:hover{
 #portfolio{
     line-height: 2;
     columns: 2;
-    column-gap: 1.5;
+    column-gap: 0.8em;
     padding-top: 7.8em;
     padding-left: 1em;
     padding-right: 1em;
@@ -407,7 +400,6 @@ button[type="submit"] {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-decoration: none;
         background-color: rgb(240, 240, 240);
         margin-bottom: 100px;
         margin-top: 100px;
@@ -454,6 +446,7 @@ button[type="submit"] {
     #btn-portfolio{
         background-color: #c0b386;
         text-transform: uppercase;
+        text-decoration: none;
         font-weight: bold;
         padding: 15px 32px;
         border-radius: 10%;
@@ -490,11 +483,10 @@ button[type="submit"] {
     }
 
     /* Portfolio  */
-
     #portfolio{
         line-height: 2;
         columns: 4;
-        column-gap: 1.5;
+        column-gap: 0.8em;
         padding-top: 7.8em;
         padding-left: 1em;
         padding-right: 1em;
@@ -505,7 +497,6 @@ button[type="submit"] {
     }
 
     /* Contact me */
-
     #booking-container{
         font-size: 1.5em;
         padding-top: 140px;
