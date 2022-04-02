@@ -17,6 +17,9 @@ and get relivant information about time, cost etc.
   - In window mode two fast links to social media pages can be reached in the top right corner. These links will open up in a new window.
 ![Onsightbuttons-medialinks](READmeImages/Onsightbuttons-medialinks.JPG)
 
+ - In the footer on the Contact me page is a music player for some nice tunes while filling in the form
+ ![Musicplayer](READmeImages/Musicplayer.JPG)
+
 # Header
  - The header shows the artist logo aswell as social media link and easy navigation across the website.
 
@@ -75,6 +78,7 @@ The live link can be found here - https://stuffy33.github.io/OS/
 - google fonts = roboto
 - Oskar Sterner = Images ( have permission to use his content)
 - figma = change image sizes
+- soundcloud/MBB = https://soundcloud.com/mbbofficial/sky
 
 # Font
 - https://fonts.google.com/specimen/Roboto
