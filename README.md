@@ -77,7 +77,10 @@ The live link can be found here - https://stuffy33.github.io/OS/
 - figma = change image sizes
 
 # Font
-- Roboto
+- https://fonts.google.com/specimen/Roboto
+
+# Icon
+- https://fontawesome.com/search?q=bars&s=solid%2Cbrands
 
 # color
  - rgb(240, 240, 240)
@@ -90,3 +93,5 @@ The live link can be found here - https://stuffy33.github.io/OS/
  # Wireframe
  - simple wireframe made by hand for the home page
  - Unfortunatly the other 2 wireframes have been in an accident. Suspects: late night and coffee 
+
+ ![wireframe](READmeImages/wireframe.JPG)
