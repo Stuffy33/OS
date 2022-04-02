@@ -55,7 +55,6 @@ hr{
 
 nav{
     position: absolute;
-    text-align: left;
     top: 100%;
     background:rgb(240, 240, 240);
     width: 100%;
@@ -65,8 +64,6 @@ nav{
 }
 
 nav ul{
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-align: center;
 }
@@ -74,7 +71,6 @@ nav ul{
 nav li{
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-left: 3em;
 }
 
 nav a{
@@ -266,8 +262,9 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  .container {
+}
+
+.container {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
@@ -277,25 +274,28 @@ nav a:hover{
     border-radius: 16px;
     margin-bottom: 4em;
     margin-top: 4em;
-  }
-  .form-group {
+}
+
+.form-group {
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
-  }
-  .form-group input,
-  .form-group textarea {
+}
+
+.form-group input,
+.form-group textarea {
     width: 100%;
     padding: 5px;
     font-size: 18px;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
-  }
+}
   
-  textarea {
+textarea {
     resize: vertical;
-  }
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     width: 100%;
     border: none;
     background-color: rgb(240, 240, 240);
@@ -308,11 +308,7 @@ nav a:hover{
     cursor: pointer;
     margin-top: 20px;
     transition: 0.3s ease background-color;
-  
-  }
---------------------------
-
-
+}
 
 .social-network{
     display: none;
@@ -334,15 +330,20 @@ nav a:hover{
 
     nav{
         all: unset;
-        align-items: center;
+        height: auto;
+        width: 100%;
         position: absolute;
-        left: 37%;
-        top: 0.4em;
+        display: flex;
     }
 
     nav ul{
         display: flex;
-        justify-content: flex-end;
+        margin: auto;
+        padding-top: 0.5em;
+    }
+
+    nav li{
+        padding-right: 1em;
     }
     
     nav a{
@@ -369,46 +370,37 @@ nav a:hover{
 
     #center-about{
         background-color: rgb(240, 240, 240);   
-        text-align: center;
-        padding: 0 4em;
-        margin-top: 100px;
-        margin-bottom: 100px;
         width: 100%;
     }
-
-    #center-about h2{
+    
+    #about-me{
         color: black;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;    
     }
 
     #content{
-        height: 800px;
+        height: auto;
         display: flex;
+    }
+    
+    .left-about-copy p{
+        width: 70%;
+        text-align: left;
     }
 
     #left-about{
-        justify-content: left;
-        margin: 0 10%;
-    }
-
-    .left-about-copy{
-        width: 100%;
-        clear: both;
-        color: black;
-        font-size: 1.5em; 
-        min-width: 428px; 
-    }
-
-    .left-about-copy p{
-        width: 100%;
+        margin-left: 10%;
     }
 
     #right-about{
-        justify-content: right;
-        margin: 0 10%;
+        margin-right: 25%;
     }
 
     .image-card{
-        height: 600px;
+        display: block;
+        width: 280%;
     }
 
     #btn-contact-me-container{
@@ -418,13 +410,13 @@ nav a:hover{
         text-decoration: none;
         background-color: rgb(240, 240, 240);
         margin-bottom: 100px;
+        margin-top: 100px;
     }
 
     #btn-contact-me{
         background-color: #c0b386;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 15px 32px;
         border-radius: 10%;
         border: none;
         cursor: pointer;
@@ -432,7 +424,6 @@ nav a:hover{
     }
 
     /* Homepage portfolio teaser */
-
     #portfolio-teaser{
         all:unset;
         padding-top: 4em;
@@ -476,7 +467,6 @@ nav a:hover{
     }
 
     /* Social media icons */
-    
     .social-network{
         position: absolute;
         top: 0;
@@ -527,8 +517,8 @@ nav a:hover{
         text-align: center;
         color: black;
         margin: 2em;
-
     }
+
     #booking h1{
         color: black;
         text-transform: uppercase;
@@ -543,8 +533,9 @@ nav a:hover{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-      }
-      .container {
+    }
+
+    .container {
         width: 90%;
         max-width: 800px;
         margin: 0 auto;
@@ -554,25 +545,28 @@ nav a:hover{
         border-radius: 16px;
         margin-bottom: 4em;
         margin-top: 4em;
-      }
-      .form-group {
+    }
+
+    .form-group {
         width: 100%;
         margin-top: 20px;
         font-size: 20px;
-      }
-      .form-group input,
-      .form-group textarea {
+    }
+
+    .form-group input,
+    .form-group textarea {
         width: 100%;
         padding: 5px;
         font-size: 18px;
         border: 1px solid rgba(128, 128, 128, 0.199);
         margin-top: 5px;
-      }
+    }
       
-      textarea {
+    textarea {
         resize: vertical;
-      }
-      button[type="submit"] {
+    }
+
+    button[type="submit"] {
         width: 100%;
         border: none;
         background-color: rgb(240, 240, 240);
@@ -585,8 +579,5 @@ nav a:hover{
         cursor: pointer;
         margin-top: 20px;
         transition: 0.3s ease background-color;
-      
-      }
-      
-
+    }
 }
